@@ -1,0 +1,25 @@
+{
+  "name": "Riffusion",
+  "category": "Audio",
+  "example_input": {
+  "alpha": 0.75,
+  "num_inference_steps": 50,
+  "seed_image_id": "og_beat",
+
+  "start": {
+    "prompt": "church bells on sunday",
+    "seed": 42,
+    "denoising": 0.75,
+    "guidance": 7.0
+  },
+
+  "end": {
+    "prompt": "jazz with piano",
+    "seed": 123,
+    "denoising": 0.75,
+    "guidance": 7.0
+  }
+},
+  "example_output": {"audio": "data:audio/mpeg;base64,iVBORw0KGgoAAAANSUhEUgAACSgAAASwCAYA..."},
+  "version": "1"
+}
